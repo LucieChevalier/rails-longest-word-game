@@ -1,0 +1,12 @@
+<h1>Now your results</h1>
+
+<p>Your word: <%= @user_input%></p>
+<p>Found in dictionary? <%= @found_in_dictionary%></p>
+
+<p>Found in grid? <%= @found_in_grid%></p>
+
+<p>Time Taken to answer: <%= @time %></p>
+<p>Your score: <%= @score %></p>
+<p>Message: <%= @result %></p>
+
+<%= link_to "Play again", new_path %>
